@@ -7,7 +7,7 @@ import Error from "./Error";
 
 function App() {
   return (
-   <div className="bg-slate-900">
+   <div className="">
        <NavBar />
        <Routes>
           <Route path='/' element={<Home />}></Route>

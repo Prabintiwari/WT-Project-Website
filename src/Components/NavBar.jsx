@@ -40,7 +40,7 @@ const NavBar = () => {
                     </li>
                 ))
                 }
-                <button className='bg-indigo-700 text-white lg:ml-10 md:mr-0 mr-4 py-[5px] px-4 rounded  hover:bg-indigo-900 duration-500'>Login</button>
+                <button className='bg-indigo-700 text-white lg:ml-10 md:mr-0 mr-4 py-[5px] px-4 rounded hover:scale-105  hover:bg-indigo-900 duration-500'>Login</button>
             </ul>
                 
             

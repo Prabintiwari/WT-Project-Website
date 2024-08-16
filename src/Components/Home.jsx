@@ -1,5 +1,6 @@
 import React from 'react'
 import image from '../images/Smart Health-Care.png'
+import image1 from '../images/doctor.png'
 
 const Home = () => {
 
@@ -14,9 +15,10 @@ const Home = () => {
  ]
 
   return (
-    <div className='bg-slate-900 w-full font-[Poppins]h-auto'>
+    <div className=' w-full font-[Poppins] h-auto'>
+         {/* First Row */}
 
-        <div className='bg-orange-300 group/item md:flex  mt-14 md:mt-16 p-8   items-center justify-between'>
+        <div className='bg-orange-300 group/item md:flex mt-14 md:mt-16 p-8   items-center justify-between'>
 
           <div className='flex flex-col justify-center  items-center '>
             <h1 className='items-center text-gray-800 font-semibold  md:text-3xl xl:text-5xl '>All your health concerns <br /><span className='leading-relaxed'>in a single platform;</span> </h1>
@@ -35,15 +37,66 @@ const Home = () => {
                  }
               </div>
               <div>
-                <img className='hover-duration-500 w-1/2 md:w-[200px] lg:w-[300px] mx-8 md:ml-1' src={image} alt="" />
+                <img className=' w-1/2 md:w-[200px] lg:w-[300px] mx-8 md:ml-1' src={image} alt="" />
               </div>
-          </div>    
-
+          </div>     
         </div>
+       {/* End of first row */}
 
-        <div>
+        {/* Second Row */}
+
+        <div className='lg:flex justify-evenly md:px-20  lg:p-14'>
           
+          <div className='lg:h-1/2 lg:w-[33%] rounded-xl shadow-md m-14 hover:shadow-neutral-400 hover:scale-105  duration-500'>
+            
+              <img className='w-full h-48 sm:h-[500px] lg:h-60 rounded-xl bg-sky-100 hover:bg-gray-200 duration-500' src={image1} alt="" />
+
+              <div className=''>
+                 <h1 className='text-2xl sm:text-3xl lg:text-2xl px-6 mt-6 font-semibold text-gray-800'>Find a Doctor</h1>
+                 <p className='text-gray-600 sm:text-xl lg:text-base font-medium px-6 my-1'>Find the best doctors of your choice.</p>
+              </div>
+              <div className='p-7'>
+                <button className='bg-indigo-700 text-white p-2 rounded hover:bg-indigo-900 hover:scale-105 duration-500'>Find Doctor</button>
+              </div>
+           
+          </div>
+
+          
+          <div className='lg:h-1/2 lg:w-[33%] rounded-xl shadow-md m-14 hover:shadow-neutral-400 hover:scale-105  duration-500'>
+            
+              <img className='w-full h-48 sm:h-[500px] lg:h-60 rounded-xl bg-sky-100 hover:bg-gray-200 duration-500' src={image1} alt="" />
+
+              <div>
+                 <h1 className='text-2xl sm:text-3xl lg:text-2xl px-6 mt-6 font-semibold text-gray-800'>Find a Doctor</h1>
+
+                 <p className='text-gray-600 sm:text-xl lg:text-base font-medium px-6 my-1'>Find the best doctors of your choice.</p>
+              </div>
+
+              <div className='p-7'>
+                <button className='bg-indigo-700 text-white p-2 rounded hover:bg-indigo-900 hover:scale-105 duration-500'>Find Doctor</button>
+              </div>
+           
+          </div>
+
+          <div className='lg:h-1/2 lg:w-[33%] rounded-xl shadow-md m-14 hover:shadow-neutral-400 hover:scale-105  duration-500'>
+            
+              <img className='w-full h-48 sm:h-[500px] lg:h-60 rounded-xl bg-sky-100 hover:bg-gray-200 duration-500' src={image1} alt="" />
+
+              <div>
+                 <h1 className='text-2xl sm:text-3xl lg:text-2xl px-6 mt-6 font-semibold text-gray-800'>Find a Doctor</h1>
+
+                 <p className='text-gray-600 sm:text-xl lg:text-base font-medium px-6 my-1'>Find the best doctors of your choice.</p>
+              </div>
+
+              <div className='p-7'>
+                <button className='bg-indigo-700 text-white p-2 rounded hover:bg-indigo-900 hover:scale-105 duration-500'>Find Doctor</button>
+              </div>
+           
+          </div>
+
         </div>
+
+        {/* End of second row */}
     </div>
   )
 }
