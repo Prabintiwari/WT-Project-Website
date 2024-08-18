@@ -1,6 +1,8 @@
 import React from 'react'
 import image from '../images/Smart Health-Care.png'
 import image1 from '../images/doctor.png'
+import image2 from '../images/calander.png'
+import image3 from '../images/Health.png'
 
 const Home = () => {
 
@@ -47,7 +49,7 @@ const Home = () => {
 
         <div className='lg:flex justify-evenly md:px-20  lg:p-14'>
           
-          <div className='lg:h-1/2 lg:w-[33%] rounded-xl shadow-md m-14 hover:shadow-neutral-400 hover:scale-105  duration-500'>
+          <div className=' lg:w-[33%] rounded-xl shadow-md m-14 hover:shadow-neutral-400 hover:scale-105  duration-500'>
             
               <img className='w-full h-48 sm:h-[500px] lg:h-60 rounded-xl bg-sky-100 hover:bg-gray-200 duration-500' src={image1} alt="" />
 
@@ -55,8 +57,8 @@ const Home = () => {
                  <h1 className='text-2xl sm:text-3xl lg:text-2xl px-6 mt-6 font-semibold text-gray-800'>Find a Doctor</h1>
                  <p className='text-gray-600 sm:text-xl lg:text-base font-medium px-6 my-1'>Find the best doctors of your choice.</p>
               </div>
-              <div className='p-7'>
-                <button className='bg-indigo-700 text-white p-2 rounded hover:bg-indigo-900 hover:scale-105 duration-500'>Find Doctor</button>
+              <div className='p-6'>
+                <button className='bg-indigo-700 text-white p-2 mt-[30px] rounded hover:bg-indigo-900 hover:scale-105 duration-500'>Find Doctor</button>
               </div>
            
           </div>
@@ -64,12 +66,13 @@ const Home = () => {
           
           <div className='lg:h-1/2 lg:w-[33%] rounded-xl shadow-md m-14 hover:shadow-neutral-400 hover:scale-105  duration-500'>
             
-              <img className='w-full h-48 sm:h-[500px] lg:h-60 rounded-xl bg-sky-100 hover:bg-gray-200 duration-500' src={image1} alt="" />
+              <img className='w-full h-48 sm:h-[500px] lg:h-60 rounded-xl bg-sky-100 hover:bg-gray-200 duration-500' src={image3} alt="" />
 
               <div>
-                 <h1 className='text-2xl sm:text-3xl lg:text-2xl px-6 mt-6 font-semibold text-gray-800'>Find a Doctor</h1>
+                 <h1 className='text-2xl sm:text-3xl lg:text-2xl px-6 mt-6 font-semibold text-gray-800'>Health
+                 Packages</h1>
 
-                 <p className='text-gray-600 sm:text-xl lg:text-base font-medium px-6 my-1'>Find the best doctors of your choice.</p>
+                 <p className='text-gray-600 sm:text-xl lg:text-base font-medium px-6 my-1'>Buy best health packages at an affordable rate.</p>
               </div>
 
               <div className='p-7'>
@@ -80,21 +83,23 @@ const Home = () => {
 
           <div className='lg:h-1/2 lg:w-[33%] rounded-xl shadow-md m-14 hover:shadow-neutral-400 hover:scale-105  duration-500'>
             
-              <img className='w-full h-48 sm:h-[500px] lg:h-60 rounded-xl bg-sky-100 hover:bg-gray-200 duration-500' src={image1} alt="" />
+              <img className='w-full h-48 sm:h-[500px] lg:h-60 rounded-xl bg-sky-100 hover:bg-gray-200 duration-500' src={image2} alt="" />
 
               <div>
-                 <h1 className='text-2xl sm:text-3xl lg:text-2xl px-6 mt-6 font-semibold text-gray-800'>Find a Doctor</h1>
+                 <h1 className='text-2xl sm:text-3xl lg:text-2xl px-6 mt-6 font-semibold text-gray-800'>Book an Appointments</h1>
 
-                 <p className='text-gray-600 sm:text-xl lg:text-base font-medium px-6 my-1'>Find the best doctors of your choice.</p>
+                 <p className='text-gray-600 sm:text-xl lg:text-base font-medium px-6'>Appointment with the best doctors of your choice</p>
               </div>
 
               <div className='p-7'>
-                <button className='bg-indigo-700 text-white p-2 rounded hover:bg-indigo-900 hover:scale-105 duration-500'>Find Doctor</button>
+                <button className='bg-indigo-700 text-white p-2 mt-[10px] rounded hover:bg-indigo-900 hover:scale-105 duration-500'>Schedule now</button>
               </div>
            
           </div>
 
         </div>
+
+        
 
         {/* End of second row */}
     </div>
